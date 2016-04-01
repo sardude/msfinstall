@@ -4,14 +4,6 @@ date 2>> ~/LOGFILE.txt
 
 
 echo '***********************************************************'
-echo '* Metasploit  Framework  Git  Installer  for  Arch  Linux *' 
-echo '* brought to you by teravice. Distributed under GPLv3  ****'
-echo '* teravice[at]protonmail.ch *******************************'
-echo '* blog.rawsocket.io****************************************' 
-echo '***********************************************************'
-echo ''
-
-echo '***********************************************************'
 echo '* Checking if system is up to date, updating(if necessary)*' 
 echo '* and installing dependancies... **************************' 
 echo '***********************************************************'
@@ -179,21 +171,8 @@ sudo perl -pi -e 's/armitage.jar/\/opt\/development\/armitage\/armitage.jar/g' /
 
 
 echo '***********************************************************'
-echo '* Congratulations! Setup is complete. If something is not *' 
-echo '* working properly check ~/LOGFILE.txt for errors and post*' 
-echo '* them to https://github.com/teravice/MSF-ArchInstaller   *'
-echo '* This is a new project so every help provided is much    *' 
-echo '* appreciated.                                            *'
+echo '* Congratulations! Setup is complete. *' 
 echo '***********************************************************'
 echo ''
 echo ''
 
-echo '***********************************************************'                                                  
-echo ' #    # ###  #####   #####  '
-echo ' #   #   #  #     # #     # '
-echo ' #  #    #  #       #       '
-echo ' ###     #   #####   #####  '
-echo ' #  #    #        #       # '
-echo ' #   #   #  #     # #     # '
-echo ' #    # ###  #####   #####  '
-echo '***********************************************************'
